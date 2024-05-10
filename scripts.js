@@ -9,6 +9,7 @@ form.addEventListener("submit", (event) => {
   console.log(dividend);
   console.log(divider)
 
-  
+  let divideResult = dividend / divider;
+
   result.innerText = dividend / divider;
 });
